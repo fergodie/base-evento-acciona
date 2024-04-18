@@ -104,11 +104,11 @@ export const Demo = () => {
 					id="intro"
 					className="bg-image"
 					style={{
-						backgroundImage: "https://mdbcdn.b-cdn.net/img/new/fluid/city/113.jpg";
-						height: "100vh";
+						backgroundImage: "https://mdbcdn.b-cdn.net/img/new/fluid/city/113.jpg",
+						height: "100vh"
 					}}
 				>
-					<div className="mask text-white" style={{background-color: "rgba(0, 0, 0, 0.8)"}}>
+					<div className="mask text-white" style={{backgroundColor: "rgba(0, 0, 0, 0.8)"}}>
 						<div className="container d-flex align-items-center text-center h-100">
 							<div>
 								<h1 className="mb-5">This is title</h1>
