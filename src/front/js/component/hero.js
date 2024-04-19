@@ -8,7 +8,7 @@ export const Hero = () => {
 
 
         <div className="p-5 text-start bg-image rounded-3 mb-5" style={{
-            background: "url('https://mediacdn.acciona.com/media/kqfme1qi/cabecera-business-as-unusual-acciona.jpg') no-repeat",
+            background: "url('https://www.spain.info/.content/images/cabeceras-grandes/madrid/Parque-Nat-Cumbre-cirso-Lagunas-Penalara-t2800952.jpg') no-repeat",
             backgroundSize: "cover",
             height: "100vh"
         }}>
