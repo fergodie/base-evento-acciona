@@ -12,8 +12,9 @@ export const Home = () => {
 	return (
 		<div className="text-center">
 			<Hero className=""/>
-			<Detalles/>
-			<Carousel/>
+			<Detalles className=""/>
+			<Carousel className=""/>
+			
 		</div>
 	);
 };
