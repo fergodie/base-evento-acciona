@@ -1,25 +1,31 @@
 import React, { useState, useEffect } from 'react';
+import plastico from "../../img/pLASTICO.webp"
+import reciclaje from "../../img/RECICLADORA.jpg"
+import smile from "../../img/smile.jpg"
 
 export const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "https://picsum.photos/id/238/400/150",
-    "https://picsum.photos/id/237/400/150",
-    "https://picsum.photos/id/239/400/150"
+    "https://s3.abcstatics.com/media/ciencia/2017/07/19/AdobeStock_123780524-kCHE--1240x698@abc.jpg",
+    "https://eu-central-1.linodeobjects.com/contactcenterhub/2022/10/smile-768x432.jpg",
+    "https://hazrevista.org/wp-content/uploads/2021/06/reciclos-recompensas-reciclar.jpg"
+  
   ];
 
   // Array para los títulos de las imágenes
   const titles = [
-    "Energía limpia",
     "",
-    "Nuestra nueva materia prima"
+    "",
+    "",
+    ""
   ];
 
   const subTitles = [
-    "Energía limpia",
-    "Monedero virtual",
-    "Nuestra nueva materia prima"
+    "",
+    "",
+    "",
+    ""
   ];
 
   const showNextImage = () => {
@@ -32,7 +38,7 @@ export const Carousel = () => {
   }, []);
 
   return (
-    <div id="carouselMaterialStyle" className="carousel slide carousel-fade container" data-mdb-ride="carousel" data-mdb-carousel-init>
+    <div id="carouselMaterialStyle" className="carousel slide carousel-fade container mt-5" data-mdb-ride="carousel" data-mdb-carousel-init>
       <div className="carousel-inner rounded-5 shadow-4-strong">
         {images.map((image, index) => (
           <div key={index} className={`carousel-item ${index === currentIndex ? 'active' : ''}`}>

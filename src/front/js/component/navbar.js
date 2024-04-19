@@ -13,10 +13,13 @@ export const Navbar = () => {
 					</Link>
 					<div className="d-flex align-items-center">
 						<Link to="/demo" className="me-2">
-							<button className="btn">Video</button>
+							<button className="btn"><strong>Video</strong></button>
 						</Link>
 						<Link to="/single">
 							<button className="btn"><i className="fa-solid fa-qrcode"></i></button>
+						</Link>
+						<Link to="/single">
+							<button className="btn"><i className="fa-solid fa-mobile-retro"></i></button>
 						</Link>
 					</div>
 				</div>

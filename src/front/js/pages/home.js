@@ -5,6 +5,7 @@ import "../../styles/home.css";
 import { Hero } from "../component/hero";
 import { Detalles } from "../component/detalles";
 import { Carousel } from "../component/carousel";
+import { Map } from "../component/map";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -12,8 +13,8 @@ export const Home = () => {
 	return (
 		<div className="text-center">
 			<Hero className=""/>
-			<Detalles className=""/>
-			<Carousel className=""/>
+			<Detalles/>
+			<Carousel/>
 			
 		</div>
 	);
