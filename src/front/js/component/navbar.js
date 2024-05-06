@@ -18,7 +18,7 @@ export const Navbar = () => {
 						<Link to="/single">
 							<button className="btn"><i className="fa-solid fa-qrcode"></i></button>
 						</Link>
-						<Link to="/single">
+						<Link to="/codigo">
 							<button className="btn"><i className="fa-solid fa-mobile-retro"></i></button>
 						</Link>
 					</div>

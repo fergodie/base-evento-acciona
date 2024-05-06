@@ -10,7 +10,7 @@ export const Carousel = () => {
     "https://s3.abcstatics.com/media/ciencia/2017/07/19/AdobeStock_123780524-kCHE--1240x698@abc.jpg",
     "https://eu-central-1.linodeobjects.com/contactcenterhub/2022/10/smile-768x432.jpg",
     "https://hazrevista.org/wp-content/uploads/2021/06/reciclos-recompensas-reciclar.jpg"
-  
+
   ];
 
   // Array para los títulos de las imágenes
