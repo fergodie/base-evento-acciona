@@ -4,7 +4,7 @@ export const Qr = () => {
 
     return (
         <div className='container d-flex justify-content-center align-items-center'>
-            <h1>hola señoras</h1>
+            <h1>hola mundo la concha de tu mandre</h1>
         </div>
 
     );
